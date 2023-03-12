@@ -1,0 +1,29 @@
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+# Coveralls
+.nyc_output
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+# ignore additional files using core.excludesFile
+# https://git-scm.com/docs/gitignore
+
+.DS_Store
+.vscode/
+.idea/
+build/
+/ormconfig.json
+ormlogs.log
+npm-debug.log
+/test/github-issues/799/tmp/*
+# ignore yarn2 artifacts but allow yarn.lock (forces yarn1 compat which is node_modules)
+.yarn/
+.yarn*
+*.iml
+*.log
